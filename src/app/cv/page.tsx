@@ -20,7 +20,7 @@ export default function CVPage() {
             <p className="eyebrow border-t border-white/15 pt-4 text-[#ff8062]">Curriculum vitae · PDF</p>
           </div>
           <div className="md:col-span-6">
-            <h1 className="page-title max-w-[10ch]">Curriculum vitae.</h1>
+            <h1 className="page-title max-w-[10ch]">CV</h1>
             <p className="body-copy mt-9 max-w-2xl border-t border-white/15 pt-7 text-white/50">
               Research experience, publications, teaching, awards, and technical training.
             </p>
