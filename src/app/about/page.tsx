@@ -54,6 +54,7 @@ export default function AboutPage() {
               <a href="https://scholar.google.com/citations?user=qmUQ2nYAAAAJ&hl=en" target="_blank" rel="noopener noreferrer" className="signal-link text-black/65 hover:text-black">Google Scholar</a>
               <a href="mailto:mduqueramirez@g.harvard.edu" className="signal-link text-black/65 hover:text-black">Email</a>
               <Link href="/research" className="signal-link text-black/65 hover:text-black">Research</Link>
+              <Link href="/cv" className="signal-link text-black/65 hover:text-black">CV</Link>
             </div>
             <p className="mt-10 border-t border-black/18 pt-6 text-sm leading-7 text-black/48">PhD candidate · Engert Lab, Harvard University · From Barcelona · Based in Cambridge, Massachusetts</p>
           </div>

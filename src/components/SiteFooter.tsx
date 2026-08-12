@@ -6,6 +6,7 @@ const links = [
   ["Publications", "/publications"],
   ["Press", "/press"],
   ["About", "/about"],
+  ["CV", "/cv"],
 ];
 
 export default function SiteFooter() {

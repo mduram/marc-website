@@ -10,6 +10,7 @@ const navItems = [
   { label: "Publications", href: "/publications" },
   { label: "Press", href: "/press" },
   { label: "About", href: "/about" },
+  { label: "CV", href: "/cv" },
 ];
 
 const researchItems = [
@@ -53,7 +54,7 @@ export default function Navbar() {
             </span>
           </Link>
 
-          <nav className="hidden items-center gap-7 md:flex" aria-label="Primary navigation">
+          <nav className="hidden items-center gap-6 lg:flex" aria-label="Primary navigation">
             {navItems.map((item, index) => (
               <div key={item.href} className="group relative flex h-[4.75rem] items-center">
                 <Link
@@ -86,7 +87,7 @@ export default function Navbar() {
             onClick={() => setMenuOpen((open) => !open)}
             aria-label={menuOpen ? "Close navigation menu" : "Open navigation menu"}
             aria-expanded={menuOpen}
-            className="relative z-50 grid h-10 w-10 place-items-center border border-white/15 md:hidden"
+            className="relative z-50 grid h-10 w-10 place-items-center border border-white/15 lg:hidden"
           >
             <span className="sr-only">{menuOpen ? "Close menu" : "Open menu"}</span>
             <span className="relative h-4 w-5">
@@ -97,7 +98,7 @@ export default function Navbar() {
         </div>
       </header>
 
-      <div className={`fixed inset-0 z-40 overflow-y-auto bg-[#080a0a] transition duration-300 md:hidden ${menuOpen ? "pointer-events-auto opacity-100" : "pointer-events-none opacity-0"}`}>
+      <div className={`fixed inset-0 z-40 overflow-y-auto bg-[#080a0a] transition duration-300 lg:hidden ${menuOpen ? "pointer-events-auto opacity-100" : "pointer-events-none opacity-0"}`}>
         <div className="site-grid flex min-h-screen flex-col px-5 pb-8 pt-28">
           <nav className="border-t border-white/15" aria-label="Mobile navigation">
             {navItems.map((item, index) => (
